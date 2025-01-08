@@ -16,7 +16,7 @@ runs:
         GITHUB_ACTION_PATH: ${{ github.action_path }} 
     - name: Proto Dependencies
       run: 
-        proto/dependent-proto.sh
+        dependent-proto.sh
       shell: bash
     - name: Proto Compile
       run: 
