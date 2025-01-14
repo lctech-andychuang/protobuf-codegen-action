@@ -1,7 +1,4 @@
 #!/bin/bash
-set -x
-
-#* Before the event: Need login gcloud service account
 
 # Init color
 RED='\033[0;31m'
