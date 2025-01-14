@@ -29,10 +29,6 @@ process_file() {
         return 1
     fi
 
-    # Use sed to delete lines between the two <a> tags
-    sed -i "${first_a_line},${second_a_line}d" "$file"
-    echo "Tables removed from: $file"
-
     if [ "$REMOVE_TOC" = true ]; then
         # Use sed to delete lines between the two <a> tags
         sed -i "${first_a_line},${second_a_line}d" "$file"
