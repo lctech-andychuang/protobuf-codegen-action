@@ -41,4 +41,4 @@ runs:
       shell: bash
       env:
         TAG_VERSION: ${{ inputs.version }}
-        STABLE_MODE: ${{ inputs.stable-mode }}
+        STABLE_MODE: 'false'
